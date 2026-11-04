@@ -66,9 +66,9 @@ journey
       Availability request goes to parents automatically: 5: Dave
     section Wednesday
       Sees 8 in, 1 out, 2 not replied: 4: Dave
-      Taps "Remind parents": 5: Dave
+      Taps Remind parents: 5: Dave
     section Thursday training
       Marks attendance in 20 seconds: 5: Dave
     section Saturday
-      Team sheet ready; canteen duty filled: 5: Dave
+      Team sheet ready and canteen duty filled: 5: Dave
 ```
