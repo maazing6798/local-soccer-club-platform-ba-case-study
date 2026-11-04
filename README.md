@@ -74,4 +74,4 @@ python analyse.py         # runs the SQL, prints results, saves charts
 ```
 
 ---
-*Author: [Your Name] · Business Analyst · [LinkedIn](https://linkedin.com/in/your-profile)*
+*Author: Maaz Sharieff · Business Analyst · [LinkedIn](https://linkedin.com/in/your-profile)*
