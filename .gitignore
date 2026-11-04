@@ -1,0 +1,4 @@
+04-data-analysis/data/*
+!04-data-analysis/data/sample_registrations_60.csv
+__pycache__/
+.DS_Store

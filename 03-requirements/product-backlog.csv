@@ -1,0 +1,23 @@
+Story_ID,Epic,Title,Persona,Requirements,MoSCoW,Points,Release,Sprint,Status
+US-101,E1 Register & pay,Register my children with last season's details,Parent,FR-01;FR-02;NFR-06,Must,5,R1,S1,Done
+US-102,E1 Register & pay,See the right price before I pay,Parent,FR-04;FR-05,Must,5,R1,S1,Done
+US-103,E1 Register & pay,"Pay by card, wallet or instalments",Parent,FR-06;FR-07;NFR-03,Must,5,R1,S2,Done
+US-104,E1 Register & pay,"Ask for help with fees, privately",Parent,FR-08,Must,3,R1,S2,Done
+US-105,E1 Register & pay,Federation status without cross-checking,Registrar,FR-03,Must,3,R1,S2,Done
+US-201,E2 Teams & compliance,Allocate teams by drag and drop,Coach Coordinator,FR-10,Must,5,R1,S3,Done
+US-202,E2 Teams & compliance,Late registrations go to a waitlist,Coach Coordinator,FR-09,Must,2,R1,S3,Done
+US-203,E2 Teams & compliance,Block coaches without a verified WWCC,Child Safety Officer,FR-11;FR-12;FR-13;NFR-01,Must,5,R1,S3,In UAT
+US-401,E4 Website & admin,Edit website pages and post news,Secretary,FR-22,Must,5,R1,S1,Done
+US-402,E4 Website & admin,Fixtures and join page on the website,Prospective parent,FR-23;FR-24,Must,3,R1,S2,Done
+US-403,E4 Website & admin,Admin dashboard,President,FR-28,Must,3,R1,S3,In UAT
+US-404,E4 Website & admin,Export payments for the accounts,Treasurer,FR-27,Must,2,R1,S3,In UAT
+US-301,E3 Match day,Tell the coach if my child can play,Parent,FR-18;FR-19,Must,3,R2,S4,Ready
+US-302,E3 Match day,See who's in at a glance,Coach,FR-19,Must,3,R2,S4,Ready
+US-303,E3 Match day,Team announcements go to parents only,Coach,FR-14;FR-15;FR-17,Must,3,R2,S5,Ready
+US-304,E3 Match day,Game reminders,Parent,FR-16,Must,2,R2,S5,Ready
+US-305,E3 Match day,My child's own view,Player,FR-26,Should,3,R2,S6,Refining
+US-306,E3 Match day,Pick and swap volunteer duties,Parent,FR-20;FR-21,Should,3,R2,S7,Refining
+US-307,E3 Match day,Mark training attendance,Coach,FR-25,Should,2,R2,S7,Refining
+US-501,R3 backlog,Canteen pre-orders,Parent,—,Could,8,R3,—,Idea
+US-502,R3 backlog,Merchandise shop,Parent,—,Could,8,R3,—,Idea
+US-503,R3 backlog,Team photos (after child-safety review),Parent,—,Won't (R1–R2),5,R3,—,Idea

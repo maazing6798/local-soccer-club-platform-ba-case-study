@@ -1,0 +1,34 @@
+Req_ID,Type,Description,Business_Req,Objective,User_Story,Test_Case,MoSCoW,Release,Status
+FR-01,Functional,Family account with multiple children,BR-01,O1;O3,US-101,TC-01,Must,R1,Passed
+FR-02,Functional,Pre-filled details for returning families,BR-01,O3,US-101,TC-02,Must,R1,Passed
+FR-03,Functional,Nightly federation sync and status,BR-02,O1;O3,US-105,TC-03,Must,R1,Passed
+FR-04,Functional,Fee by configurable category,BR-01,O1,US-102,TC-04,Must,R1,Passed
+FR-05,Functional,Configurable early-bird and sibling discounts,BR-01,O1,US-102,TC-04;TC-05,Must,R1,Failed - DEF-012
+FR-06,Functional,Card / Apple Pay / Google Pay,BR-01,O1,US-103,TC-06;TC-07,Must,R1,Passed
+FR-07,Functional,Two instalments,BR-01,O1,US-103,TC-08,Should,R1,Passed
+FR-08,Functional,Confidential hardship request,BR-01,O1,US-104,TC-09,Must,R1,Passed
+FR-09,Functional,Registration closes at grading deadline; waitlist,BR-03,O2,US-202,TC-10,Must,R1,Passed
+FR-10,Functional,Drag-and-drop team allocation with size limits,BR-03,O2,US-201,TC-11,Must,R1,Passed
+FR-11,Functional,WWCC details in staff profile,BR-04,O4,US-203,TC-12,Must,R1,Passed
+FR-12,Functional,Child safety officer verifies WWCC,BR-04,O4,US-203,TC-12,Must,R1,Passed
+FR-13,Functional,Block unverified staff; 30-day expiry alert,BR-04,O4,US-203,TC-13;TC-14,Must,R1,In UAT
+FR-14,Functional,Team announcements to parents,BR-05,O3;O5,US-303,TC-20,Must,R2,Not started
+FR-15,Functional,No messages to player profiles,BR-05,O4,US-303,TC-21,Must,R2,Not started
+FR-16,Functional,Game reminders by push,BR-05,O5,US-304,TC-22,Must,R2,Not started
+FR-17,Functional,Club-wide announcements,BR-05,O5,US-303,TC-20,Must,R2,Not started
+FR-18,Functional,Weekly availability request,BR-05,O3,US-301,TC-23,Must,R2,Not started
+FR-19,Functional,Live availability count and reminders,BR-05,O3,US-302,TC-24,Must,R2,Not started
+FR-20,Functional,Duty slots per game day,BR-06,O3,US-306,TC-26,Should,R2,Not started
+FR-21,Functional,Claim and swap duties,BR-06,O3,US-306,TC-26,Should,R2,Not started
+FR-22,Functional,Committee edits website,BR-07,O5;O6,US-401,TC-15,Must,R1,Passed
+FR-23,Functional,Fixtures on website,BR-07,O5,US-402,TC-16,Must,R1,Passed
+FR-24,Functional,Join the club page,BR-07,O6,US-402,TC-16,Must,R1,Passed
+FR-25,Functional,Training attendance,BR-05,O3,US-307,TC-27,Should,R2,Not started
+FR-26,Functional,Parent-controlled player view,BR-05,O5,US-305,TC-25,Should,R2,Not started
+FR-27,Functional,Payments CSV export,BR-02,O3,US-404,TC-17,Must,R1,In UAT
+FR-28,Functional,Admin dashboard,BR-02,O1;O3,US-403,TC-18,Must,R1,In UAT
+NFR-01,Non-functional,Child-safe policy enforced,BR-04;BR-05,O4,US-203;US-303;US-305,TC-13;TC-21;TC-25,Must,R1;R2,Partly tested
+NFR-03,Non-functional,PCI-DSS SAQ-A,BR-01,O1,US-103,TC-19,Must,R1,Passed
+NFR-04,Non-functional,Two-factor auth for committee,BR-02,O4,US-403,TC-19,Must,R1,Passed
+NFR-06,Non-functional,Register 2 children in under 5 minutes,BR-01,O3,US-101,TC-02,Must,R1,Passed (avg 3m 40s)
+NFR-08,Non-functional,Configurable per club,BR-01,—,US-102;US-201,TC-05,Must,R1,Passed

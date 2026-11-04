@@ -1,0 +1,28 @@
+Test_ID,Requirement,Scenario,Steps,Expected_Result,Priority,Release,Result,Defect_ID
+TC-01,FR-01,Create family with 2 children,Sign up; add 2 children,Family account shows both children,Must,R1,Pass,
+TC-02,FR-02;NFR-06,Returning family pre-fill,Sign in as a 2026 family; start 2027 registration; time it,Details pre-filled; age groups updated; done in under 5 minutes,Must,R1,Pass,
+TC-03,FR-03,Federation mismatch,Load fake export missing 1 paid child,Child shows Federation check pending; appears in registrar list,Must,R1,Pass,
+TC-04,FR-04;FR-05,Two children before early-bird date,Register U9 + U13 on 20 Jan,Total A$386.50 with breakdown,Must,R1,Pass,
+TC-05,FR-05;BRL-03,Three children discount order,Register U7 + U10 + U13 on 5 Feb,15% sibling discount applied to cheapest fee,Must,R1,Fail,DEF-012
+TC-06,FR-06,Apple Pay,Pay with Apple Pay on iPhone,Paid status; receipt emailed,Must,R1,Pass,
+TC-07,FR-06,Declined card,Use declined test card,Clear message; details kept,Must,R1,Pass,
+TC-08,FR-07,Instalments,Choose 2 instalments,Half charged now; second scheduled 1 Mar,Should,R1,Pass,
+TC-09,FR-08;BRL-09,Fee support request,Submit request; view as registrar and treasurer,Treasurer sees note; registrar sees Pending only,Must,R1,Pass (retest copy),DEF-015
+TC-10,FR-09,After grading deadline,Register a new child on 15 Feb,Waitlist offered; coordinator notified,Must,R1,Pass,
+TC-11,FR-10,Team size limit,Drag 11th player onto a full U9 team,Blocked with 'team is full' message,Must,R1,Pass,
+TC-12,FR-11;FR-12,Verify WWCC,Coach enters WWCC; CSO verifies,Status Verified with date and verifier,Must,R1,Pass,
+TC-13,FR-13;NFR-01,Assign unverified coach,Try to assign coach with unverified WWCC,Assignment blocked with explanation,Must,R1,Pass,
+TC-14,FR-13,Expiry alert,Set WWCC expiry to 30 days ahead,Alert to coach and CSO,Must,R1,Fail,DEF-014
+TC-15,FR-22,Edit website,Secretary edits About page and posts news,Changes live without help,Must,R1,Pass,
+TC-16,FR-23;FR-24,Fixtures and join page,View website on mobile,Fixtures shown; Join links to registration,Must,R1,Not run,
+TC-17,FR-27,Payments export,Treasurer exports November payments,CSV matches payment provider payout,Must,R1,Blocked,Awaiting first sandbox payout
+TC-18,FR-28,Dashboard,Open admin dashboard,Registered / paid / outstanding / compliance counts correct,Must,R1,Not run,
+TC-19,NFR-03;NFR-04,Security,Check no card numbers stored; committee login needs 2FA,Tokens only; 2FA enforced,Must,R1,Pass,
+TC-20,FR-14;FR-17,Team announcement,Coach sends announcement to U10 Red,All U10 Red parents receive it; no players,Must,R2,Not started,
+TC-21,FR-15;BRL-05,No messaging to players,Look for message option on a player card,No option exists; API rejects attempt,Must,R2,Not started,
+TC-22,FR-16,Game reminders,Schedule game Sat 9:30,Push at 6pm Fri and 7am Sat,Must,R2,Not started,
+TC-23,FR-18,Availability request,Monday request for 2 children,Parent can answer per child,Must,R2,Not started,
+TC-24,FR-19,Remind non-responders,Coach taps Remind parents,Only non-responders notified,Must,R2,Not started,
+TC-25,FR-26;BRL-07,Player view,Parent enables player view,First names only; no messaging,Should,R2,Not started,
+TC-26,FR-20;FR-21,Duty swap,Parent offers slot; another accepts,Roster updated; coordinator notified,Should,R2,Not started,
+TC-27,FR-25,Attendance,Coach marks attendance for 11 players,Saved in under 30 seconds,Should,R2,Not started,
